@@ -6,7 +6,7 @@ Diese Datei liest Claude zu Beginn jeder Sitzung. Hier stehen die festen Regeln 
 - Schulprojekt: eine Website zum Thema Papierverbrauch an unserer Schule.
 - Die Schule präsentiert sich als sehr digital, verbraucht aber trotzdem viel Papier. Die Website macht darauf aufmerksam und zeigt konkrete Vorschläge zum Papiersparen.
 - Zielgruppe: Schülerinnen und Schüler, Lehrkräfte, Schulleitung.
-- Sprache: Deutsch, locker, aber nicht belehrend.
+- Sprache: Deutsch, sachlich und informativ, nicht belehrend.
 
 ## Über die Person, mit der Claude arbeitet
 - Anfänger, arbeitet unter Windows 11.

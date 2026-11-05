@@ -15,3 +15,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Schritt 3 und 4: Projektregeln und Protokoll
 - **Ich wollte:** eine Datei mit den Projektregeln, damit die KI sie in jeder Sitzung kennt, und dieses Protokoll.
 - **Claude hat:** die Dateien `CLAUDE.md` (Regeln zu Technik, Datenschutz, Barrierefreiheit und Fakten) und `KI-PROTOKOLL.md` angelegt, den Ordner zu einem Git-Repository gemacht und den ersten Commit erstellt.
+
+## 05.11.2026 – Sprachstil geändert
+- **Ich wollte:** dass die Website nicht locker, sondern sachlich und informativ formuliert ist.
+- **Claude hat:** die Regel zur Sprache in `CLAUDE.md` von „locker, aber nicht belehrend“ zu „sachlich und informativ, nicht belehrend“ geändert.
