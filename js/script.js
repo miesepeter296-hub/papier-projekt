@@ -1,5 +1,5 @@
 /* ==========================================================
-   Papier-Projekt – kleine Helfer für alle Seiten
+   Tablet statt Tonne – kleine Helfer für alle Seiten
    Kein Tracking, keine Cookies, nichts wird gespeichert.
    ========================================================== */
 

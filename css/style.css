@@ -1,5 +1,5 @@
 /* ==========================================================
-   Papier-Projekt – gemeinsames Aussehen für alle Seiten
+   Tablet statt Tonne – gemeinsames Aussehen für alle Seiten
    Nur Systemschriften (keine fremden Server), starke Kontraste.
 
    FARBSCHEMATA: Alle Farben kommen aus den Variablen unten.
@@ -439,7 +439,9 @@ figcaption { font-size: 0.95rem; color: var(--text-leise); margin-top: 0.5rem; }
     clip: rect(0 0 0 0); white-space: nowrap;
   }
   .farbwahl-schalter { padding: 0.4rem 0.75rem; font-size: 1.15rem; }
-  .menue a { padding-inline: 0.65rem; }
+  .menue a { padding-inline: 0.55rem; font-size: 0.95rem; }
+  .logo { font-size: 1.05rem; }
+  .kopf .inhalt-breite { column-gap: 0.6rem; }
 }
 
 @media (max-width: 40rem) {

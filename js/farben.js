@@ -1,5 +1,5 @@
 /* ==========================================================
-   Papier-Projekt – Farbschemata
+   Tablet statt Tonne – Farbschemata
    Die gewählte Farbe wird NICHT gespeichert (keine Cookies,
    kein localStorage). Sie wird nur in der Adresse (?farbe=…)
    an die nächste Seite weitergegeben.

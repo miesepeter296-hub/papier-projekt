@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="t">
   <title id="t">Zeichnung: Ein Tablet liegt halb unter einem hohen Stapel Arbeitsblätter</title>
-  <!-- Selbst erstellte Grafik für das Papier-Projekt -->
+  <!-- Selbst erstellte Grafik für das Projekt „Tablet statt Tonne“ -->
   <ellipse cx="200" cy="270" rx="170" ry="16" fill="#c6dfcf"/>
   <!-- Tablet -->
   <g transform="rotate(-8 140 200)">

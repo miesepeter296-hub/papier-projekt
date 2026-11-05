@@ -1,4 +1,4 @@
-# Projektregeln: Papier-Projekt
+# Projektregeln: „Tablet statt Tonne“ (Repository papier-projekt)
 
 Diese Datei liest Claude zu Beginn jeder Sitzung. Hier stehen die festen Regeln für das Projekt.
 
