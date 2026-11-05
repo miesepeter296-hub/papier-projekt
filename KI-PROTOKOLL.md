@@ -34,3 +34,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
   - die Seite so gebaut, dass ein Foto namens `foto.jpg` im Ordner `bilder` automatisch die Container-Zeichnung ersetzt.
   - fehlende Infos als gelbe Platzhalter markiert (z. B. [ZAHL FEHLT], [DATUM FEHLT]).
   - das Aussehen auf iPad- und Handy-Breite mit Testbildern geprüft und einen Fehler bei langen Platzhaltern behoben.
+
+## 05.11.2026 – Schritt 6: Veröffentlichung
+- **Ich wollte:** die Website öffentlich auf GitHub Pages stellen und einen QR-Code dazu.
+- **Claude hat:** das öffentliche Repository `papier-projekt` angelegt, alles hochgeladen und GitHub Pages eingeschaltet. Die Seite ist erreichbar unter https://miesepeter296-hub.github.io/papier-projekt/ und Claude hat geprüft, dass alle Seiten laden. Beim QR-Code wurde das Ausführen eines heruntergeladenen Programms aus Sicherheitsgründen blockiert. Claude hat mir deshalb erklärt, wie ich den QR-Code selbst mit dem Edge-Browser erstelle. Außerdem hat Claude mir erklärt, wie ich morgen ein Foto vom iPad aus hochlade.
