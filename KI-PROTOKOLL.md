@@ -72,3 +72,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Foto-Upload getestet, Test-Foto entfernt
 - **Ich wollte:** testen, ob ich vom iPad aus ein Foto hochladen kann, und wissen, ob man es später ersetzen kann.
 - **Claude hat:** erklärt, wie man das Foto ersetzt oder löscht. Beim Prüfen des Test-Uploads hat Claude festgestellt, dass der Dateiname ein Leerzeichen enthielt („foto .JPG“) und dass auf dem Test-Foto Personen zu erkennen waren. Claude hat das Foto deshalb nicht eingebaut, sondern aus dem Repository entfernt. Mit meiner Zustimmung hat Claude den Upload auch aus dem sichtbaren Verlauf gelöscht (Force-Push). Merksatz: Nur Fotos ohne Personen hochladen, Dateiname genau „foto.jpg“.
+
+## 05.11.2026 – Foto-Upload erfolgreich getestet
+- **Ich wollte:** den Foto-Upload vom iPad noch einmal testen, diesmal mit einem schwarzen Testbild ohne Personen, und das Testbild danach wieder löschen.
+- **Claude hat:** den Upload geprüft (keine Personen, keine Standortdaten) und bestätigt, dass das Foto auf der Seite „Das Problem“ automatisch die Container-Zeichnung ersetzt. Danach hat Claude das Testbild auf meinen Wunsch wieder gelöscht. Die alten Test-Fotos liegen jetzt nur noch lokal im privaten Ordner `notizen`.
