@@ -38,3 +38,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Schritt 6: Veröffentlichung
 - **Ich wollte:** die Website öffentlich auf GitHub Pages stellen und einen QR-Code dazu.
 - **Claude hat:** das öffentliche Repository `papier-projekt` angelegt, alles hochgeladen und GitHub Pages eingeschaltet. Die Seite ist erreichbar unter https://miesepeter296-hub.github.io/papier-projekt/ und Claude hat geprüft, dass alle Seiten laden. Beim QR-Code wurde das Ausführen eines heruntergeladenen Programms aus Sicherheitsgründen blockiert. Claude hat mir deshalb erklärt, wie ich den QR-Code selbst mit dem Edge-Browser erstelle. Außerdem hat Claude mir erklärt, wie ich morgen ein Foto vom iPad aus hochlade.
+
+## 05.11.2026 – Platzhalter gefüllt
+- **Ich wollte:** die offenen Platzhalter füllen. Umfragedatum ist heute, als Zitat und Quelle soll die Seite „Digitales & Kulturelles Lernen“ unserer Schule dienen. Kosten und andere unbekannte Zahlen sollen weg, ein Impressum ist nicht nötig. Bei Lehrkraft A waren Klassenarbeiten gemeint.
+- **Claude hat:** die Schul-Website gelesen und die Zitate im Originaltext wörtlich überprüft. Dann hat Claude die Selbstbeschreibung der Schule als Zitat mit Quelle auf der Seite „Das Problem“ eingebaut, das Datum 05.11.2026 eingetragen und „Klassenarbeiten“ korrigiert. Die Platzhalter für Kosten, Kopien, Recyclingpapier, iPad-Anzahl, Lernplattform und Impressum hat Claude entfernt und die Schulseite in die Quellenliste aufgenommen. Jetzt gibt es keine Platzhalter mehr.

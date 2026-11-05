@@ -170,6 +170,11 @@ figure { margin: 0; }
 figcaption { font-size: 0.95rem; color: var(--text-leise); margin-top: 0.5rem; }
 .foto { border-radius: var(--radius); background: var(--weiss); border: 1px solid var(--linie); width: 100%; }
 
+.zitat {
+  margin: 0 0 1rem; padding: 0.75rem 1rem; border-left: 5px solid var(--gruen);
+  background: var(--gruen-hell); border-radius: 0 10px 10px 0; font-style: italic;
+}
+
 /* ---------- Zitate der Lehrkräfte ---------- */
 .stimme h3 { color: var(--blau); }
 .stimme ul { margin: 0; padding-left: 1.2rem; }
