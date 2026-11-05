@@ -68,3 +68,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Problem bei der Veröffentlichung
 - **Ich wollte:** wissen, warum der neue Projektname und die alte Überschrift online nicht erscheinen.
 - **Claude hat:** herausgefunden, dass die Dateien richtig hochgeladen waren, GitHub die Veröffentlichung aber nach 10 Minuten abgebrochen hatte („Timeout“, ein Fehler auf GitHubs Seite). Ein Neustart blieb in GitHubs Warteschlange hängen. Claude hat die hängenden Durchläufe abgebrochen und mit diesem Protokolleintrag eine neue Version hochgeladen, damit GitHub die Seite frisch veröffentlicht.
+
+## 05.11.2026 – Foto-Upload getestet, Test-Foto entfernt
+- **Ich wollte:** testen, ob ich vom iPad aus ein Foto hochladen kann, und wissen, ob man es später ersetzen kann.
+- **Claude hat:** erklärt, wie man das Foto ersetzt oder löscht. Beim Prüfen des Test-Uploads hat Claude festgestellt, dass der Dateiname ein Leerzeichen enthielt („foto .JPG“) und dass auf dem Test-Foto Personen zu erkennen waren. Claude hat das Foto deshalb nicht eingebaut, sondern aus dem Repository entfernt. Mit meiner Zustimmung hat Claude den Upload auch aus dem sichtbaren Verlauf gelöscht (Force-Push). Merksatz: Nur Fotos ohne Personen hochladen, Dateiname genau „foto.jpg“.
