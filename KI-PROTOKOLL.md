@@ -64,3 +64,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Projektname „Tablet statt Tonne“
 - **Ich wollte:** Mit „Titel“ war eigentlich der Projektname „Papier-Projekt“ gemeint, nicht die Überschrift der Startseite. Die alte Überschrift sollte zurück, und Claude sollte Vorschläge für einen neuen Projektnamen machen. Ich habe „Tablet statt Tonne“ gewählt.
 - **Claude hat:** die alte Startseiten-Überschrift „Digitale Schule – und trotzdem viel Papier?“ wiederhergestellt, mehrere Namensvorschläge gemacht und den Namen „Tablet statt Tonne“ überall eingesetzt: oben links auf allen Seiten, im Browser-Tab, in der Fußzeile, auf der Quellen-Seite und in der `CLAUDE.md`. Ein paar Sätze, die durch das Ersetzen grammatikalisch falsch geworden waren, hat Claude korrigiert. Damit alles auf iPad-Breite in eine Zeile passt, hat Claude die Kopfzeile etwas kompakter gemacht. Der Link (…/papier-projekt/) bleibt gleich, damit der QR-Code weiter funktioniert.
+
+## 05.11.2026 – Problem bei der Veröffentlichung
+- **Ich wollte:** wissen, warum der neue Projektname und die alte Überschrift online nicht erscheinen.
+- **Claude hat:** herausgefunden, dass die Dateien richtig hochgeladen waren, GitHub die Veröffentlichung aber nach 10 Minuten abgebrochen hatte („Timeout“, ein Fehler auf GitHubs Seite). Ein Neustart blieb in GitHubs Warteschlange hängen. Claude hat die hängenden Durchläufe abgebrochen und mit diesem Protokolleintrag eine neue Version hochgeladen, damit GitHub die Seite frisch veröffentlicht.
