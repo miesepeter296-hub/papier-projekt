@@ -19,3 +19,7 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Sprachstil geändert
 - **Ich wollte:** dass die Website nicht locker, sondern sachlich und informativ formuliert ist.
 - **Claude hat:** die Regel zur Sprache in `CLAUDE.md` von „locker, aber nicht belehrend“ zu „sachlich und informativ, nicht belehrend“ geändert.
+
+## 05.11.2026 – Eigene Struktur und Umfrage-Daten besprochen
+- **Ich wollte:** dass Claude meine eigene Seitenstruktur (mit Gemini erarbeitet, plus handschriftliche Notizen) und unsere Umfrage-Ergebnisse versteht und übernimmt.
+- **Claude hat:** die Notizen und den Umfrage-Screenshot gelesen und zusammengefasst, Rückfragen zur Papier-Rechnung gestellt und die Rechnung neu aufgestellt. Claude hat Zahlen von Gemini markiert, die nicht belegt waren (z. B. „12–15 Tonnen pro Jahr“). Weil auf den Notizen Namen von Lehrkräften stehen, hat Claude eine `.gitignore` angelegt, damit diese Bilder nicht hochgeladen werden. Auf der Website werden keine Namen genannt.
