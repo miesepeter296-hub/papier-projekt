@@ -18,8 +18,9 @@ var FARBSCHEMATA = [
   { id: "sand",       name: "Sand",            a: "#6b4e16", b: "#1d4f8c" },
   { id: "nacht",      name: "Nachtmodus",      a: "#12161a", b: "#8fd3ae" },
   { id: "kontrast",   name: "Hoher Kontrast",  a: "#000000", b: "#ffffff" },
-  { id: "einhorn",    name: "Einhorn 🦄 (Spaß)",   a: "#ff8fc8", b: "#c2187a" },
-  { id: "regenbogen", name: "Regenbogen 🌈 (Spaß)", a: "#000000", b: "linear-gradient(90deg,#ff4d4d,#ffa53d,#ffe14d,#4dd97a,#4db8ff,#a77bff)" }
+  { id: "einhorn",    name: "Einhorn 🦄",    a: "#ff8fc8", b: "#c2187a" },
+  { id: "regenbogen", name: "Regenbogen 🌈", a: "#000000", b: "linear-gradient(90deg,#ff4d4d,#ffa53d,#ffe14d,#4dd97a,#4db8ff,#a77bff)" },
+  { id: "bunt",       name: "Kunterbunt 🎉", a: "#000000", b: "conic-gradient(#e53935,#fdd835,#43a047,#1e88e5,#8e24aa,#ff6d00,#00acc1,#e53935)" }
 ];
 
 function gueltigeFarbe(id) {
