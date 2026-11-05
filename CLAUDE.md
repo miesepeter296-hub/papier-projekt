@@ -50,3 +50,7 @@ Diese Datei liest Claude zu Beginn jeder Sitzung. Hier stehen die festen Regeln 
 ## Dokumentation
 - Nach jedem Arbeitsschritt einen kurzen Eintrag in `KI-PROTOKOLL.md`: Datum, was gewünscht war, was Claude gemacht hat.
 - Git-Identität: Name `miesepeter`, E-Mail ist die anonyme GitHub-Adresse (keine echten Namen oder E-Mails ins Repository schreiben).
+
+## Wichtig vor jeder Arbeit
+- Zuerst `git pull` ausführen: Fotos werden manchmal direkt über die GitHub-Website (vom iPad) hochgeladen.
+- Foto der Papiercontainer: `bilder/foto.jpg` ersetzt automatisch die Zeichnung auf der Seite „Das Problem“ (siehe `js/script.js`). Sehr große Fotos auf ca. 1200 px Breite verkleinern.
