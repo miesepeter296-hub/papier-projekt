@@ -23,3 +23,14 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Eigene Struktur und Umfrage-Daten besprochen
 - **Ich wollte:** dass Claude meine eigene Seitenstruktur (mit Gemini erarbeitet, plus handschriftliche Notizen) und unsere Umfrage-Ergebnisse versteht und übernimmt.
 - **Claude hat:** die Notizen und den Umfrage-Screenshot gelesen und zusammengefasst, Rückfragen zur Papier-Rechnung gestellt und die Rechnung neu aufgestellt. Claude hat Zahlen von Gemini markiert, die nicht belegt waren (z. B. „12–15 Tonnen pro Jahr“). Weil auf den Notizen Namen von Lehrkräften stehen, hat Claude eine `.gitignore` angelegt, damit diese Bilder nicht hochgeladen werden. Auf der Website werden keine Namen genannt.
+
+## 05.11.2026 – Schritt 5: Erste Version der Website
+- **Ich wollte:** eine Website mit 4 Hauptseiten (Start, Das Problem, Zahlen & Fakten, Lösungen) nach meiner Struktur, ein Kuchendiagramm zur Umfrage, eine neue Rechnung zum Papierverbrauch (6 Blatt/Woche, 39 Wochen, Klasse 5–10, 6 Klassen à 28) und die Möglichkeit, morgen ein Foto vom iPad aus hochzuladen.
+- **Claude hat:**
+  - die Umweltfakten recherchiert und nur Angaben mit Quelle übernommen (Umweltbundesamt, Wikipedia „Papierformat“). Die Gemini-Angabe „12–15 Tonnen pro Jahr“ wurde nicht übernommen.
+  - die Rechnung neu aufgestellt: 234 Blatt pro Kind und Jahr, 1.404 Blatt von Klasse 5–10, 235.872 Blatt pro Jahr für die ganze Schule (1.008 Schüler). Zum Vergleich mit 1 Blatt pro Woche bei digitaler Nutzung.
+  - 5 Seiten gebaut: `index.html`, `problem.html`, `zahlen.html`, `loesungen.html`, `quellen.html`, dazu `css/style.css` und `js/script.js`.
+  - ein Kuchendiagramm (selbst als SVG gezeichnet), einen Papier-Rechner und selbst gezeichnete Grafiken (Tablet mit Papierstapel, Papiercontainer) erstellt.
+  - die Seite so gebaut, dass ein Foto namens `foto.jpg` im Ordner `bilder` automatisch die Container-Zeichnung ersetzt.
+  - fehlende Infos als gelbe Platzhalter markiert (z. B. [ZAHL FEHLT], [DATUM FEHLT]).
+  - das Aussehen auf iPad- und Handy-Breite mit Testbildern geprüft und einen Fehler bei langen Platzhaltern behoben.

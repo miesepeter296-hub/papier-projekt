@@ -1,0 +1,221 @@
+/* ==========================================================
+   Papier-Projekt – gemeinsames Aussehen für alle Seiten
+   Nur Systemschriften (keine fremden Server), starke Kontraste.
+   ========================================================== */
+
+:root {
+  --gruen: #1e6b47;        /* Hauptfarbe, Kontrast zu Weiß 6,5:1 */
+  --gruen-dunkel: #134a31;
+  --gruen-hell: #e3f1e8;
+  --blau: #1d4f8c;          /* Akzentfarbe, Kontrast zu Weiß 8,3:1 */
+  --blau-hell: #e4eef9;
+  --papier: #f8faf8;        /* Seitenhintergrund */
+  --weiss: #ffffff;
+  --text: #17211c;
+  --text-leise: #46524b;    /* Kontrast zu Weiß 7,9:1 */
+  --linie: #cfdad3;
+  --warnung: #fff1b8;
+  --warnung-rand: #8a6d00;
+  --radius: 14px;
+  --schatten: 0 2px 10px rgba(20, 50, 35, 0.08);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.125rem;      /* 18px: gut lesbar auf dem iPad */
+  line-height: 1.6;
+}
+
+img, svg { max-width: 100%; height: auto; }
+
+a { color: var(--blau); text-underline-offset: 0.15em; }
+a:hover { color: var(--gruen-dunkel); }
+
+:focus-visible { outline: 3px solid var(--blau); outline-offset: 3px; border-radius: 4px; }
+
+/* Link „Zum Inhalt springen“ für Tastatur und Screenreader */
+.skip-link {
+  position: absolute; left: 1rem; top: -4rem;
+  background: var(--weiss); padding: 0.5rem 1rem; border-radius: 8px; z-index: 10;
+}
+.skip-link:focus { top: 1rem; }
+
+.inhalt-breite { width: 100%; max-width: 68rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* ---------- Kopfzeile und Menü ---------- */
+.kopf {
+  background: var(--gruen);
+  color: var(--weiss);
+  padding-top: env(safe-area-inset-top, 0px);
+  position: sticky; top: 0; z-index: 5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.kopf .inhalt-breite {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 0.25rem 1.5rem; padding-block: 0.6rem;
+}
+.logo {
+  color: var(--weiss); text-decoration: none; font-weight: 800; font-size: 1.2rem;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+}
+.logo:hover { color: var(--weiss); }
+.logo img { width: 1.6rem; height: 1.6rem; }
+
+.menue ul {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 0.25rem;
+}
+.menue a {
+  display: block; color: var(--weiss); text-decoration: none;
+  padding: 0.5rem 0.8rem; border-radius: 999px; font-size: 1rem; font-weight: 600;
+  min-height: 44px; line-height: 1.75;   /* große Tippfläche */
+}
+.menue a:hover { background: var(--gruen-dunkel); color: var(--weiss); }
+.menue a[aria-current="page"] { background: var(--weiss); color: var(--gruen-dunkel); }
+
+/* ---------- Allgemeine Bausteine ---------- */
+main { display: block; padding-block: 2rem 3rem; }
+
+h1, h2, h3 { line-height: 1.25; color: var(--gruen-dunkel); }
+h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 1rem; }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); margin: 2.5rem 0 1rem; }
+h3 { font-size: 1.25rem; margin: 0 0 0.5rem; }
+
+.einleitung { font-size: 1.25rem; color: var(--text-leise); max-width: 46rem; }
+
+.abschnitt { margin-bottom: 2.5rem; }
+
+.karte {
+  background: var(--weiss); border: 1px solid var(--linie); border-radius: var(--radius);
+  padding: 1.25rem 1.4rem; box-shadow: var(--schatten);
+}
+
+.raster { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+.raster-2 { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); align-items: start; }
+
+/* Gut sichtbarer Platzhalter für fehlende Daten */
+.fehlt {
+  background: var(--warnung); color: #4a3a00; border: 2px dashed var(--warnung-rand);
+  padding: 0 0.35em; border-radius: 6px; font-weight: 700;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+}
+
+.hinweis {
+  background: var(--blau-hell); border-left: 5px solid var(--blau);
+  padding: 0.9rem 1.1rem; border-radius: 0 10px 10px 0; font-size: 1rem;
+}
+
+.quelle { font-size: 0.95rem; color: var(--text-leise); }
+
+.knopf {
+  display: inline-block; background: var(--blau); color: var(--weiss); text-decoration: none;
+  font-weight: 700; padding: 0.75rem 1.3rem; border-radius: 999px; min-height: 44px;
+}
+.knopf:hover { background: var(--gruen-dunkel); color: var(--weiss); }
+
+/* ---------- Startseite ---------- */
+.hero {
+  display: grid; gap: 2rem; align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin-bottom: 2rem;
+}
+.hero-bild { background: var(--gruen-hell); border-radius: 24px; padding: 1rem; }
+
+.kernzahlen { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.kernzahl { border-top: 6px solid var(--gruen); }
+.kernzahl .zahl { display: block; font-size: clamp(2rem, 5vw, 2.6rem); font-weight: 800; color: var(--gruen-dunkel); line-height: 1.1; }
+.kernzahl p { margin: 0.4rem 0 0; }
+
+.kacheln { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+.kachel {
+  display: flex; flex-direction: column; gap: 0.4rem;
+  text-decoration: none; color: var(--text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.kachel:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(20, 50, 35, 0.15); color: var(--text); }
+.kachel .nummer {
+  display: inline-grid; place-items: center; width: 2.4rem; height: 2.4rem;
+  border-radius: 50%; background: var(--gruen); color: var(--weiss); font-weight: 800;
+}
+.kachel .weiter { margin-top: auto; color: var(--blau); font-weight: 700; }
+
+/* ---------- Tabellen ---------- */
+.tabelle-huelle { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { width: 100%; border-collapse: collapse; background: var(--weiss); font-size: 1rem; }
+caption { text-align: left; font-weight: 700; padding-bottom: 0.5rem; color: var(--gruen-dunkel); }
+th, td { padding: 0.65rem 0.8rem; border-bottom: 1px solid var(--linie); text-align: left; vertical-align: top; }
+thead th { background: var(--gruen-hell); color: var(--gruen-dunkel); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.summe td, tr.summe th { font-weight: 800; border-top: 2px solid var(--gruen); }
+
+/* ---------- Diagramm ---------- */
+.diagramm { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); align-items: center; }
+.diagramm svg { width: 100%; max-width: 22rem; justify-self: center; }
+.diagramm path { stroke: var(--weiss); stroke-width: 2; }
+.legende { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.legende li { display: grid; grid-template-columns: 1.3rem 1fr auto; gap: 0.7rem; align-items: center; font-size: 1rem; }
+.farbfeld { width: 1.3rem; height: 1.3rem; border-radius: 4px; }
+.legende .wert { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* ---------- Bilder mit Bildunterschrift ---------- */
+figure { margin: 0; }
+figcaption { font-size: 0.95rem; color: var(--text-leise); margin-top: 0.5rem; }
+.foto { border-radius: var(--radius); background: var(--weiss); border: 1px solid var(--linie); width: 100%; }
+
+/* ---------- Zitate der Lehrkräfte ---------- */
+.stimme h3 { color: var(--blau); }
+.stimme ul { margin: 0; padding-left: 1.2rem; }
+
+/* ---------- Papier-Rechner ---------- */
+.rechner { border: 2px solid var(--gruen); }
+.rechner form { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); margin-bottom: 1.25rem; }
+.rechner label { display: block; font-weight: 700; margin-bottom: 0.3rem; font-size: 1rem; }
+.rechner input {
+  width: 100%; font: inherit; font-size: 1.15rem; padding: 0.6rem 0.75rem; min-height: 48px;
+  border: 2px solid var(--text-leise); border-radius: 10px; background: var(--weiss); color: var(--text);
+}
+.rechner .tipp { display: block; font-size: 0.9rem; color: var(--text-leise); }
+.vorlagen { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.vorlagen button {
+  font: inherit; font-size: 1rem; font-weight: 700; cursor: pointer; min-height: 44px;
+  padding: 0.5rem 1rem; border-radius: 999px; border: 2px solid var(--blau);
+  background: var(--weiss); color: var(--blau);
+}
+.vorlagen button:hover, .vorlagen button[aria-pressed="true"] { background: var(--blau); color: var(--weiss); }
+.ergebnisse { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); }
+.ergebnis { background: var(--gruen-hell); border-radius: 12px; padding: 1rem; }
+.ergebnis .zahl { display: block; font-size: 1.8rem; font-weight: 800; color: var(--gruen-dunkel); line-height: 1.2; font-variant-numeric: tabular-nums; }
+.ergebnis span:last-child { font-size: 1rem; }
+
+/* ---------- Lösungen ---------- */
+.tipps { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+.tipps li { border-left: 6px solid var(--gruen); }
+.tipps p { margin: 0; }
+.gruppe-kopf { display: flex; align-items: center; gap: 0.75rem; }
+.gruppe-kopf svg { width: 2.5rem; height: 2.5rem; flex: none; }
+
+/* ---------- Fußzeile ---------- */
+.fuss {
+  background: var(--gruen-dunkel); color: var(--weiss); font-size: 0.95rem;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.fuss .inhalt-breite { padding-block: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; justify-content: space-between; }
+.fuss a { color: var(--weiss); }
+.fuss p { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media (max-width: 40rem) {
+  body { font-size: 1.0625rem; }
+  .kopf { position: static; }   /* auf dem Handy nicht festkleben, spart Platz */
+}
