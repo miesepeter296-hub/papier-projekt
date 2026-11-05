@@ -42,3 +42,17 @@ Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude
 ## 05.11.2026 – Platzhalter gefüllt
 - **Ich wollte:** die offenen Platzhalter füllen. Umfragedatum ist heute, als Zitat und Quelle soll die Seite „Digitales & Kulturelles Lernen“ unserer Schule dienen. Kosten und andere unbekannte Zahlen sollen weg, ein Impressum ist nicht nötig. Bei Lehrkraft A waren Klassenarbeiten gemeint.
 - **Claude hat:** die Schul-Website gelesen und die Zitate im Originaltext wörtlich überprüft. Dann hat Claude die Selbstbeschreibung der Schule als Zitat mit Quelle auf der Seite „Das Problem“ eingebaut, das Datum 05.11.2026 eingetragen und „Klassenarbeiten“ korrigiert. Die Platzhalter für Kosten, Kopien, Recyclingpapier, iPad-Anzahl, Lernplattform und Impressum hat Claude entfernt und die Schulseite in die Quellenliste aufgenommen. Jetzt gibt es keine Platzhalter mehr.
+
+## 05.11.2026 – Farbschemata, neue Inhalte und Bildauswahl
+- **Ich wollte:** 10 Farbschemata plus 2 Spaß-Schemata (pink mit Einhörnern, schwarz mit Regenbogen), einen besseren Titel, 3 neue Bildvorschläge für die Startseite (das alte Bild behalten), ein Kreisdiagramm nur mit Prozentzahlen, das seine Farben an das Farbschema anpasst, verständlicher formulierte Aussagen der Lehrkräfte (Lehrkraft B meinte etwa 50 % an der ganzen Schule), Umrandungen um die Seitenüberschriften, bei „Ersparnis“ den Gesamtverbrauch und die gesparten Blätter in Klammern, Teams und OneNote in den Lösungen, mehrere Vorschläge zum Thema Ablenkung (vorhandene Sperre von 8 Uhr bis Schulende, Freigabe durch Lehrkräfte z. B. in Freistunden, alternativ strengere Konsequenzen, Oberstufe ausgenommen), Recherche, wie so ein System funktioniert, mit Beispielen, und „Vorschläge an die Schulleitung“ umbenennen in „Vorschläge an die Schule“.
+- **Claude hat:**
+  - ein Farbsystem mit 12 Schemata gebaut (Grün, Ozeanblau, Petrol, Lila, Bordeaux, Herbst, Graphit, Sand, Nachtmodus, Hoher Kontrast, Einhorn 🦄, Regenbogen 🌈). Die Auswahl erscheint oben über den 🎨-Knopf. Die Farbe wird nicht gespeichert, sondern nur in der Adresse weitergegeben (Datenschutz).
+  - den Titel geändert zu „Digital ausgestattet, auf Papier gearbeitet“.
+  - 3 neue Bilder gezeichnet (Waage, Papierturm, Tablet als Drucker) und eine Vorschau-Seite `bildauswahl.html` zum Vergleichen angelegt.
+  - das Diagramm so umgebaut, dass es nur Prozente zeigt, die genauen Stimmenzahlen stehen in der aufklappbaren Tabelle. Das Diagramm übernimmt die Farben des gewählten Schemas.
+  - die Aussagen der Lehrkräfte in ganzen Sätzen formuliert und die Aussage von Lehrkraft B korrigiert.
+  - alle Seitenüberschriften mit einem Rahmen versehen.
+  - die Ersparnis-Zeile geändert: „Verbrauch sinkt von geschätzt 235.872 auf 39.312 Blatt (196.560 Blatt gespart)“.
+  - die Lösungen-Seite überarbeitet: OneNote-Kursnotizbuch und Teams-Aufgaben eingebaut (mit Microsoft-Quellen), „Vorschläge an die Schule“ und einen eigenen, gestrichelt umrandeten Themenblock „Ablenkung durch Spiele vermeiden“ mit 6 Punkten erstellt.
+  - recherchiert, wie zeitgesteuerte Sperren funktionieren (Jamf School, Apple Classroom), ein Beispiel aus Singapur gefunden und alle Quellen auf der Quellen-Seite ergänzt. Den Namen der Schule in Singapur hat Claude weggelassen, weil er auf der Quellseite nicht eindeutig steht.
+  - Wissen über die Schule und das Farbsystem in `CLAUDE.md` ergänzt.

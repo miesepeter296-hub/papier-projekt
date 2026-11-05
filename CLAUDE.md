@@ -20,6 +20,19 @@ Diese Datei liest Claude zu Beginn jeder Sitzung. Hier stehen die festen Regeln 
 - Hosting: GitHub Pages (Repository `papier-projekt`, Account `miesepeter296-hub`).
 - Alles muss kostenlos sein.
 
+## Wissen über die Schule (für Inhalte)
+- Gesamtschule Wasseramselweg. Selbstbeschreibung als digitale Schule: Seite „Digitales & Kulturelles Lernen“ der Schul-Website (als Quelle angegeben).
+- Die Schule nutzt **Microsoft Teams und OneNote**; Aufgaben können dort abgegeben werden.
+- Es gibt ein System, das Spiele/unerwünschte Websites von 8 Uhr bis Schulende sperren kann, es wird aber nicht genutzt.
+- Rechnungen und Sperr-Vorschlag gelten für Klasse 5–10. Die **Oberstufe ist bewusst ausgenommen** (individuelle Start- und Schlusszeiten).
+- Keine Namen von Lehrkräften oder anderen Personen nennen.
+
+## Farbschemata
+- 12 Farbschemata (10 normale, 2 Spaß-Schemata „einhorn“ und „regenbogen“) in `css/style.css`, Auswahl über `js/farben.js`.
+- Alle Farben nur über CSS-Variablen. Eine neue Farbe muss in **allen** Schemata definiert werden.
+- Die Farbwahl wird nicht gespeichert, sondern nur per `?farbe=…` in der Adresse weitergegeben.
+- Jede neue Seite braucht `<script src="js/farben.js"></script>` im `<head>`.
+
 ## Darstellung und Barrierefreiheit
 - Die Seite wird in der Schule auf iPads (Safari) gezeigt. Sie muss auf Tablet und Handy gut aussehen (responsive).
 - Gut lesbar: ausreichende Kontraste (mindestens WCAG AA), sinnvolle Alt-Texte für alle Bilder, gut bedienbar per Touch.

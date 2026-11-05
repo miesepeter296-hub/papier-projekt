@@ -7,6 +7,7 @@
   <meta name="description" content="Digitale Schule, aber viel Papier: unsere Umfrage, Stimmen von Lehrkräften und die vollen Papiercontainer.">
   <link rel="icon" href="bilder/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/farben.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
@@ -64,27 +65,27 @@
           <svg viewBox="0 0 320 320" role="img" aria-labelledby="diagramm-titel diagramm-text">
             <title id="diagramm-titel">Kuchendiagramm zur Umfrage</title>
             <desc id="diagramm-text">69 Prozent arbeiten überwiegend mit Papier, 29 Prozent überwiegend mit dem iPad, 2 Prozent etwa gleich viel. Die genauen Werte stehen in der Liste daneben.</desc>
-            <path d="M160 160 L160 10 A150 150 0 0 1 189.3 12.9 Z" fill="#1d4f8c"><title>Fast immer iPad, kein Papier: 4 Stimmen (3 %)</title></path>
-            <path d="M160 160 L189.3 12.9 A150 150 0 0 1 305.5 196.4 Z" fill="#6fa3dc"><title>iPad oft, eher weniger Papier: 33 Stimmen (26 %)</title></path>
-            <path d="M160 160 L305.5 196.4 A150 150 0 0 1 298.6 217.4 Z" fill="#8f8f8a"><title>iPad genauso oft wie Papier: 3 Stimmen (2 %)</title></path>
-            <path d="M160 160 L298.6 217.4 A150 150 0 1 1 145.3 10.7 Z" fill="#e6a06c"><title>Mehr Papier, weniger iPad: 86 Stimmen (67 %)</title></path>
-            <path d="M160 160 L145.3 10.7 A150 150 0 0 1 160 10 Z" fill="#9a4515"><title>Fast gar nicht iPad, fast immer Papier: 2 Stimmen (2 %)</title></path>
-            <g font-family="-apple-system, Segoe UI, Arial, sans-serif" font-weight="800" fill="#17211c" text-anchor="middle" aria-hidden="true">
-              <text x="238" y="118" font-size="24">26 %</text>
-              <text x="88" y="222" font-size="34">67 %</text>
+            <path class="s1" d="M160 160 L160 10 A150 150 0 0 1 189.3 12.9 Z"><title>Fast immer iPad, kein Papier: 3 %</title></path>
+            <path class="s2" d="M160 160 L189.3 12.9 A150 150 0 0 1 305.5 196.4 Z"><title>iPad oft, eher weniger Papier: 26 %</title></path>
+            <path class="s3" d="M160 160 L305.5 196.4 A150 150 0 0 1 298.6 217.4 Z"><title>iPad genauso oft wie Papier: 2 %</title></path>
+            <path class="s4" d="M160 160 L298.6 217.4 A150 150 0 1 1 145.3 10.7 Z"><title>Mehr Papier, weniger iPad: 67 %</title></path>
+            <path class="s5" d="M160 160 L145.3 10.7 A150 150 0 0 1 160 10 Z"><title>Fast gar nicht iPad, fast immer Papier: 2 %</title></path>
+            <g font-family="-apple-system, Segoe UI, Arial, sans-serif" text-anchor="middle" aria-hidden="true">
+              <text class="diagramm-text" x="238" y="118" font-size="26">26 %</text>
+              <text class="diagramm-text" x="88" y="222" font-size="36">67 %</text>
             </g>
           </svg>
           <ul class="legende">
-            <li><span class="farbfeld" style="background:#1d4f8c"></span><span>Fast immer iPad, kein Papier</span><span class="wert">4 · 3&nbsp;%</span></li>
-            <li><span class="farbfeld" style="background:#6fa3dc"></span><span>iPad oft, eher weniger Papier</span><span class="wert">33 · 26&nbsp;%</span></li>
-            <li><span class="farbfeld" style="background:#8f8f8a"></span><span>iPad genauso oft wie Papier</span><span class="wert">3 · 2&nbsp;%</span></li>
-            <li><span class="farbfeld" style="background:#e6a06c"></span><span>Mehr Papier, weniger iPad</span><span class="wert">86 · 67&nbsp;%</span></li>
-            <li><span class="farbfeld" style="background:#9a4515"></span><span>Fast gar nicht iPad, fast immer Papier</span><span class="wert">2 · 2&nbsp;%</span></li>
+            <li><span class="farbfeld s1"></span><span>Fast immer iPad, kein Papier</span><span class="wert">3&nbsp;%</span></li>
+            <li><span class="farbfeld s2"></span><span>iPad oft, eher weniger Papier</span><span class="wert">26&nbsp;%</span></li>
+            <li><span class="farbfeld s3"></span><span>iPad genauso oft wie Papier</span><span class="wert">2&nbsp;%</span></li>
+            <li><span class="farbfeld s4"></span><span>Mehr Papier, weniger iPad</span><span class="wert">67&nbsp;%</span></li>
+            <li><span class="farbfeld s5"></span><span>Fast gar nicht iPad, fast immer Papier</span><span class="wert">2&nbsp;%</span></li>
           </ul>
         </div>
-        <p><strong>Ergebnis:</strong> 88 von 128 Befragten (69&nbsp;%) arbeiten im Unterricht überwiegend mit Papier. Nur 37 (29&nbsp;%) nutzen überwiegend das iPad.</p>
+        <p><strong>Ergebnis:</strong> Gut zwei Drittel der Befragten (69&nbsp;%) arbeiten im Unterricht überwiegend mit Papier. Nur 29&nbsp;% nutzen überwiegend das iPad. Insgesamt haben 128 Schülerinnen und Schüler geantwortet.</p>
         <details>
-          <summary>Ergebnisse als Tabelle anzeigen</summary>
+          <summary>Genaue Stimmenzahlen als Tabelle anzeigen</summary>
           <div class="tabelle-huelle">
             <table>
               <caption>Umfrage: Nutzung von iPad und Papier im Unterricht</caption>
@@ -136,24 +137,24 @@
         <div class="karte stimme">
           <h3>Lehrkraft A</h3>
           <ul>
-            <li>Ein Ausgleich zwischen iPad und Papier ist sinnvoll.</li>
-            <li>Papier, wenn es nötig ist.</li>
-            <li>Papier fast nur noch für Klassenarbeiten.</li>
+            <li>Findet einen Ausgleich zwischen iPad und Papier sinnvoll.</li>
+            <li>Setzt Papier nur dann ein, wenn es wirklich nötig ist.</li>
+            <li>Nutzt Papier inzwischen fast nur noch für Klassenarbeiten.</li>
           </ul>
         </div>
         <div class="karte stimme">
           <h3>Lehrkraft B</h3>
           <ul>
-            <li>Versucht, das iPad zu benutzen.</li>
-            <li>Nutzt das iPad zu mehr als 50&nbsp;%.</li>
+            <li>Versucht selbst, im Unterricht möglichst das iPad zu benutzen.</li>
+            <li>Schätzt, dass an unserer Schule insgesamt zu etwa 50&nbsp;% mit dem iPad gearbeitet wird.</li>
           </ul>
         </div>
         <div class="karte stimme">
           <h3>Lehrkraft C</h3>
           <ul>
-            <li>Teils, teils.</li>
-            <li>Schon besser als früher.</li>
-            <li>Verbessern könnte man: Klassenarbeiten, Prüfungen und Projekttage.</li>
+            <li>Findet, dass sowohl digitale Medien als auch Papier benutzt werden.</li>
+            <li>Findet, dass es schon besser ist als früher.</li>
+            <li>Sieht Verbesserungsmöglichkeiten bei Klassenarbeiten, Prüfungen und Projekttagen.</li>
           </ul>
         </div>
       </div>
