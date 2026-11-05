@@ -1,0 +1,17 @@
+# KI-Protokoll
+
+Hier steht nach jedem Arbeitsschritt kurz, was ich wollte und was die KI (Claude Code) gemacht hat.
+
+---
+
+## 05.11.2026 – Schritt 1: Werkzeuge prüfen
+- **Ich wollte:** prüfen lassen, ob git und gh auf meinem PC funktionieren.
+- **Claude hat:** die Versionen abgefragt. git 2.56 und gh 2.103 waren schon installiert, also war keine Installation nötig.
+
+## 05.11.2026 – Schritt 2: Git einrichten und bei GitHub anmelden
+- **Ich wollte:** Git einrichten und mich mit GitHub verbinden.
+- **Claude hat:** erklärt, dass Name und E-Mail in einem öffentlichen Repository für alle sichtbar sind, und deshalb einen Spitznamen und die anonyme GitHub-E-Mail (noreply) empfohlen. Danach hat Claude Git mit dem Namen „miesepeter“ und dieser E-Mail eingerichtet. Die Anmeldung mit `gh auth login` habe ich selbst gemacht, Claude hat mir die Antworten auf die Fragen erklärt.
+
+## 05.11.2026 – Schritt 3 und 4: Projektregeln und Protokoll
+- **Ich wollte:** eine Datei mit den Projektregeln, damit die KI sie in jeder Sitzung kennt, und dieses Protokoll.
+- **Claude hat:** die Dateien `CLAUDE.md` (Regeln zu Technik, Datenschutz, Barrierefreiheit und Fakten) und `KI-PROTOKOLL.md` angelegt, den Ordner zu einem Git-Repository gemacht und den ersten Commit erstellt.
